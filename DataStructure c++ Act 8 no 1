@@ -4,17 +4,15 @@ using namespace std;
 
 int main()
 {
-    int a[10];
-    int b[]={7,-4,1,6,-87,-9,2,210,-90,87};
-    string s="WazzGOod";
+    int arr1[10];
 
     for(int i=0;i<10;i++){
         cout << "Input Integer" << i+1 << ":";
-        cin >> b[i];
+        cin >> arr1[i];
 
     }
     for(int i=9;i>=0;i--){
-            cout << b[i] << endl;
+            cout << arr1[i] << endl;
 
 
     }
